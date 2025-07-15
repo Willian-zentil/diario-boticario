@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+.background {
+    background-image: url("./assets/beautiful-space-background-vector.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    min-height: 100vh;
+}
+
+header,
+footer {
+    background-color: teal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px;
+    flex-direction: column;
+}
+
+header h1 {
+    color: #fff;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+
+header h2 {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-weight: 300;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+article {
+    background-color: beige;
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+article h3 {
+    font-size: 24px;
+}
+
+article p {
+    line-height: 2;
+}
+
+footer * {
+    color: #fff;
+}
+
+footer p {
+    font-size: 24px;
+}
